@@ -6,14 +6,14 @@ padding:3rem 5rem 5rem;
 }
 
 /* Style the headings consistently */
-#portfolio h5,
-#portfolio h2 {
+#experience h5,
+#experience h2 {
   color: black;
   font-weight: 400;
   text-align: center;
 }
 
-#portfolio h2 {
+#experience h2 {
   font-weight: 1000;
   font-size: 2rem;
   margin-top: 1px; /* Add some space between headings */

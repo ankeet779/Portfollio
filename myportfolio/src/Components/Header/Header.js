@@ -28,11 +28,12 @@ const Header = () => {
           <ul className={Mobile ? 'nav-links-mobile' : 'link f_flex uppercase' } onClick={( ) => setMobile(false)}> 
            <li> <a href =' #home ' >home</a></li>
            <li> <a href =' #features ' >features</a></li>
+           <li> <a href =' #experience ' >Experience</a></li>
+
+
            <li> <a href =' #portfolio ' >portfolio</a></li>
            <li> <a href =' #Services ' >Service</a></li>
-           <li> <a href =' #blog ' >blog</a></li>
            <li> <a href =' #contact ' >contact</a></li>
-           <li><button className='home-btn'>BUY NOW</button></li>
         </ul>
 
         <button className='toggle' onClick={() => setMobile(!Mobile)}>
