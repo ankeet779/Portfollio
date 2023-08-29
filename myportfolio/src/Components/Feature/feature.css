@@ -1,26 +1,159 @@
-.features .box{
-    padding: 50px;
-}
+/* feature.css */
 
-.feature .box h2{
-    margin: 20px 0 20px 0;
+/* Improve overall layout and spacing */
+#features {
+    padding: 80px 0; /* Add vertical padding for spacing */
+    text-align: center;
+  }
+  
+  /* Style the headings consistently */
+  #features h3,
+  #features h1 {
+    color: black;
+    font-weight: 400;
+  }
+  
+  #features h1 {
+    font-weight: 1000;
+    font-size: 2rem;
+    margin-top: 10px; /* Add some space between headings */
+  }
+  
+  /* Grid container for the about section */
+  .about__container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+  }
+  
+  
+.about__me{
+    margin-top: 50px;
+    width: 20rem;
+    height: 20rem;
+    background: radial-gradient(1224px at 10.6% 8.8%, rgb(255, 255, 255) 0%, rgb(153, 202, 251) 100.2%);
+    display: grid;
+    place-items: center;
+    border-radius: 3rem;
 }
+.about__me-image {
+    border-radius: 3rem;
+    width: 20rem;
+    height: 20rem;
+    transform: rotate(10deg);
+  transition:  .5s;
+    overflow: hidden;
+  }
+  .about__me-image:hover{
+    transform: rotate(0);
+  }
+  
 
-.feature .box p{
-    word-spacing:  2px;
-    transition: 0.5s;
-}
-.feature .box i{
-    font-size: 30px;
+  .about__me-image img {
+    
+
+    width: 100%;
+    height: 100%;
+  }
+  
+ 
+  
+ 
+  .about__content {
+    text-align: left; /* Align text to the left */
+  }
+  
+  .about__cards {
+    margin-top: 50px;
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 1.5rem;
+  }
+  
+  .about__card {
+    flex: 1;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .about__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+  }
+  
+  .about__icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--color-primary); /* Change to your primary color */
+  }
+  
+  /* Styling for the description text and button */
+  .about__content p {
     margin-top: 20px;
-    transition:0.5s;
-    opacity: 0;
-}
-
-.feature .box:hover p{
-    color:white;
-}
-.feature .box:hover i{
+    font-size: 1rem;
+  }
+  
+  
+  
+  .btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(100, 170, 100);
+    background-color: rgb(27, 205, 218);
     color: white;
-    opacity:1;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
+   
+  .btn:hover{
+    background: rgb(174, 172, 172);
+    cursor:default;
+    border-bottom: rgb(58, 57, 57);
+  }
+
+  
+
+
+
+
+  @media screen and (max-width: 1024px){
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .about__content p{
+        margin: 1rem 0 1.5rem;
+
+    }
+  }
+
+
+  @media screen and  ( max-width: 600px){
+
+    .about__me{
+        width: 65%;
+        margin: o auto 3rem;
+
+    }
+.about__cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
+    .about__content{
+        text-align: center;
+    }
+    .about__content p{
+        margin: 1.5rem;
+    }
+  }
