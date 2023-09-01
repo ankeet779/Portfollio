@@ -20,7 +20,7 @@ padding:3rem 5rem 5rem;
 }
 .experience__container > div{
   padding-top: 10rem;
-  background: rgba(96, 226, 255, 0.865);
+  background:  #5585b5;
   padding: 2.4rem 5rem;
   border-radius:2rem;
   border: 1px solid transparent;
@@ -35,11 +35,11 @@ border-bottom: rgb(58, 57, 57);
 
 }
 
-
+  
 .experience__container > div h3{
   text-align: center;
   margin-bottom: 2rem;
-  color: var (--color-primary);
+  color: rgba(55, 58, 255, 0.6);
 
 }
 
