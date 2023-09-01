@@ -5,15 +5,16 @@ import './App.css';
 import Feature from './Components/Feature/feature';
 import Experience from './Components/Experience/Experience';
 import Services from './Components/Services/Services';
+import Portfolio from './Components/Portfolio/Portfolio';
 
 const App = () => {
   return  (
-    <>
-  <Header/>
+<>  <Header/>
   <Home/>
   <Feature/>
   <Experience/>
   <Services/>
+  <Portfolio/>
   
   </>
   )
