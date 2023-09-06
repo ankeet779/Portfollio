@@ -6,7 +6,7 @@ import Feature from './Components/Feature/feature';
 import Experience from './Components/Experience/Experience';
 import Services from './Components/Services/Services';
 import Portfolio from './Components/Portfolio/Portfolio';
-
+import Contact from './Components/Contact/Contact';
 const App = () => {
   return  (
 <>  <Header/>
@@ -15,7 +15,7 @@ const App = () => {
   <Experience/>
   <Services/>
   <Portfolio/>
-  
+  <Contact/>
   </>
   )
 }

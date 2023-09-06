@@ -62,22 +62,9 @@ h2 {
   margin-top: 1px; /* Add some space between headings */
 }
 
-@media screen and (max-width: 1024px){
-    .service__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+@media (max-width: 768px) {
+    .services__container {
+      grid-template-columns: 1fr;
     }
-
-    .service{
-        height: auto;
-    }
-   }
-
-   
-   @media screen and  ( max-width: 600px){
-    .service__container{
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-
-   }
+  }
+  
