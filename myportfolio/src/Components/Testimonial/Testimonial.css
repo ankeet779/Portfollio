@@ -1,0 +1,120 @@
+.Testimonial h2 {
+    margin: 15px 0 0 0;
+  }
+ 
+  .Testimonial .container{
+    height: 45rem;
+  }
+  .Testimonial .left img{
+    border-radius: 180rem;
+    height: 10rem;
+    width: 10rem;
+    margin-left: 2rem;
+  }
+  .Testimonial .left {
+    width: 35%;
+    padding: 35px;
+    margin: 20px;
+   
+  }
+  .Testimonial .right {
+    width: 65%;
+    padding: 0 0 0 10px;
+    margin: 0 20px 0 0;
+  }
+  .Testimonial .quote  {
+    font-size: 100px;
+    opacity: 0.1;
+  }
+ 
+  .Testimonial .content {
+    padding: 1px;
+  }
+  .Testimonial .content h1 {
+    font-weight: 500;
+  }
+  .Testimonial .content h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+  .Testimonial .slide_button {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  .Testimonial .slide_button .prev_btn {
+    margin-right: 30px;
+  }
+  
+  .Testimonial .slide {
+    max-width: 70%;
+    margin: auto;
+    height: 450px;
+    position: relative;
+    display: flex;
+  }
+  .Testimonial article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  article.activeSlide {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 60px;
+    transition: transform 0.2s;    opacity: 1;
+    transform: translateX(0);
+ 
+  }
+  .testimonial article.lastSlide {
+    transform: translateX(-100%);
+  }
+  .testimonial .nextSlide {
+    transform: translateX(100%);
+  }
+  @media (max-width: 768px) {
+    article {
+      flex-direction: column;
+    }
+    article.activeSlide {
+      transform: translateX(0);
+    }
+    .Testimonial .left {
+      display: flex;
+      margin-top: 15%;
+ }
+  h2{
+    margin-right: 2rem;
+  }
+    .Testimonial .left img {
+      border-radius: 500px;
+    }
+    .Testimonial .right {
+      width: 100%;
+      padding: 40 0 0 10rem;
+    }
+    .Testimonial .slide {
+      max-width: 70%;
+      margin: auto;
+      height: max-content;
+      width: 1000rem;
+      position: absolute;
+    }
+    .Testimonial .slide {
+      height: 80vh;
+      max-width: 90%;
+    }
+    .Testimonial .quote {
+      
+      display: none;
+    }
+  
+  }

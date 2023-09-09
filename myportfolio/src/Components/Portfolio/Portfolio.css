@@ -43,9 +43,10 @@
   }
   
   .portfolio__item img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     border-radius: 15px;
+    margin-left: 4rem;
     margin-bottom: 1rem;
   }
   

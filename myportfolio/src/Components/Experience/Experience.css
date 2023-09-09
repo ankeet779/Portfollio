@@ -20,17 +20,16 @@ padding:3rem 5rem 5rem;
 }
 .experience__container > div{
   padding-top: 10rem;
-  background:  #5585b5;
   padding: 2.4rem 5rem;
   border-radius:2rem;
-  border: 1px solid transparent;
+  border: 2px solid #E1E3E0;
   transition: .5s;
 }
 
 
 .experience__container > div:hover{
-  background: rgb(174, 172, 172);
-cursor:default;
+  background: rgb(210, 205, 205);
+  cursor:default;
 border-bottom: rgb(58, 57, 57);
 
 }
@@ -39,7 +38,6 @@ border-bottom: rgb(58, 57, 57);
 .experience__container > div h3{
   text-align: center;
   margin-bottom: 2rem;
-  color: rgba(55, 58, 255, 0.6);
 
 }
 
