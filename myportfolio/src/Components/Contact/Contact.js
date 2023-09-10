@@ -55,6 +55,7 @@ const Contact = () => {
 </section> 
         )
 }
+
 <hr />
 
 export default Contact
