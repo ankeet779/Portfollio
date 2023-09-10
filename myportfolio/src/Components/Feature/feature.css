@@ -1,19 +1,22 @@
 /* feature.css */
 
 /* Improve overall layout and spacing */
-#features {
-    padding: 80px 0; /* Add vertical padding for spacing */
+
+#about {
     text-align: center;
+    margin-top: 6rem;
   }
   
   /* Style the headings consistently */
-  #features h3,
-  #features h1 {
+  h5,
+ h1 {
     color: black;
     font-weight: 400;
+    text-align: center;
+
   }
   
-  #features h1 {
+  #about h1 {
     font-weight: 1000;
     font-size: 2rem;
     margin-top: 10px; /* Add some space between headings */

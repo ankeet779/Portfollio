@@ -11,7 +11,7 @@ import "./feature.css";
 const Feature = () => {
   return (
     <section id = "about"> 
-    <h3> Get To Know</h3>
+    <h5> Get To Know</h5>
     <h1> About Me</h1>
     <div className = 'container about__container'>
       <div className = 'about__me'>
