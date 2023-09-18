@@ -5,6 +5,7 @@ import skill1 from "../pic/flutter.jpg";
 import skill2 from "../pic/react.png";
 import skill3 from "../pic/2560px-Qt_logo_2016.svg.png";
 import { useTypewriter, Typewriter, Cursor } from 'react-simple-typewriter'
+import {BsFacebook,BsInstagram, BsLinkedin} from 'react-icons/bs'
 
 const Home = () => {
   return (
@@ -36,13 +37,25 @@ const Home = () => {
                 </h4>
                 <div className="button">
                     <button className="btn_shadow ">
-                        <i className="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"> 
+                        <a href="https://www.facebook.com/ankit.rimal.7468/" target="_blank">
+                        <BsFacebook/>
+				</a>
+                        </i>
                     </button>
                     <button className="btn_shadow ">
-                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-instagram">
+                        <a href="https://www.instagram.com/ankeet_rimal/" target="_blank">
+
+<BsInstagram /> 
+</a></i>
                     </button>
                     <button className="btn_shadow ">
-                        <i className="fab fa-linkedin-in"></i>
+                        <i className="fab fa-linkedin-in">
+                          <a href=" https://www.linkedin.com/in/ankit-rimal-275908235/" target="_blank">
+                          <BsLinkedin/>
+                          </a>
+                          </i>
                     </button>
 
                 </div>
