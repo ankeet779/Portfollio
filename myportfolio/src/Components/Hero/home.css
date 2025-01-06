@@ -1,86 +1,176 @@
+/* General Hero Section Styling */
+.hero {
+  display: flex;
+  margin-top: 80px;
 
-.hero h3 {
-  font-weight: 100;
-  letter-spacing: 2px;
-}
-.hero h1 {
-  font-size: 60px;
-  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 20px;
+  background-color: #f5f5f5; /* Light background color */
 }
 
-.hero h1 span {
-  color: #ff014f;
-  margin-top: 0;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Makes it responsive */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30 0 0px;
+
 }
-.hero h2 {
-  font-size: 50px;
-  font-weight: bold;
-  color: #ff014f;
+
+.f_flex {
+  display: flex;
+  align-items: center;
 }
-.hero h2 span {
-  color: black;
+
+/* Left Section Styling */
+.left {
+  flex: 1;
+  max-width: 600px;
+  padding: 20px;
 }
-.hero p {
-  color: #878e99;
-  font-size: 18px;
-  line-height: 30px;
-  margin-top: 30px;
+
+.left h3 {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 10px;
 }
+
+.left h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.left h1 span {
+  color: #007bff; /* Highlighted color */
+}
+
+.left h2 {
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.left h2 span {
+  color: #28a745; /* Typing effect color */
+}
+
+.left p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Hero Buttons */
 .hero_btn {
-  margin-top: 20%;
-}
-.hero_btn h4 {
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: #43474b;
-  font-size: 15px;
-  margin: 30px 0 30px 0;
-}
-.hero_btn button {
-  margin-right: 20px;
-}
-.hero_btn i {
-  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* Responsive alignment */
 }
 
-.hero_btn button img {
-  width: 20px;
-  height: 20px;
+.col_1 {
+  display: flex;
+  flex-direction: column;
 }
-.hero .left {
-  margin-right: 10%;
+
+.col_1 h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #333;
 }
-.hero .right {
-  width: 40%;
-  position: relative;
+
+.button {
+  display: flex;
+  gap: 10px;
 }
-.hero .right_img {
-  background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-  border-radius: 10px;
-  height: 530px;
-  width: 510px;
-  margin-top: 20%;
+
+.btn_shadow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
-.hero .right_img img {
-  position: absolute;
-  top: 0;
-  right: 10%;
-  width: 350px;
+
+.btn_shadow:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
 }
+
+.btn_shadow img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Right Section Styling */
+.right {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.right_img img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  transition: all 0.3s ease;
+}
+
+.right_img img:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-  .hero .right,
-  .hero .left {
-    width: 100%;
-    margin-left: 20px;
+  .container {
+    flex-direction: column;
   }
 
-  .hero .f_flex {
-    flex-direction: column;
-    flex-direction: column-reverse;
+  .left,
+  .right {
+    max-width: 100%;
+    text-align: center;
   }
-  .hero .right_img {
-    width: 100%;
-    height: 54vh;
+
+  .hero_btn {
+    justify-content: center;
+  }
+
+  .right_img img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .left h1 {
+    font-size: 2rem;
+  }
+
+  .left h2 {
+    font-size: 1.5rem;
+  }
+
+  .left p {
+    font-size: 0.9rem;
+  }
+
+  .right_img img {
+    max-width: 250px;
   }
 }

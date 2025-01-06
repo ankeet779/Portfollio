@@ -1,0 +1,55 @@
+/* General Layout */
+article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .left {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular Image */
+    margin-bottom: 10px;
+  }
+  
+  .details h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .details p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Right Section */
+  .right {
+    flex: 2;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .content {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px; /* Space above the quote icon */
+  }
+  
+  /* Icon Styling */
+  .icon {
+    text-align: right; /* Align the icon to the right */
+    margin-top: 10px; /* Space above the icon */
+  }
+  
+  .icon .quote {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
