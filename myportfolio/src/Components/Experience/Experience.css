@@ -1,84 +1,74 @@
-.experience__container{
-padding:3rem 5rem 5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-}
-
-/* Style the headings consistently */
-#experience h5,
-#experience h2 {
-  color: black;
-  font-weight: 400;
+/* General Section Styling */
+#experience {
+  padding: 2rem 0;
+  background: #f9f9f9;
   text-align: center;
 }
 
+#experience h5 {
+  color: #6c757d;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
 #experience h2 {
-  font-weight: 1000;
-  font-size: 2rem;
-  margin-top: 1px; /* Add some space between headings */
-}
-.experience__container > div{
-  padding-top: 10rem;
-  padding: 2.4rem 5rem;
-  border-radius:2rem;
-  border: 2px solid #E1E3E0;
-  transition: .5s;
-}
-
-
-.experience__container > div:hover{
-  background: rgb(210, 205, 205);
-  cursor:default;
-border-bottom: rgb(58, 57, 57);
-
-}
-
-  
-.experience__container > div h3{
-  text-align: center;
+  font-size: 2.5rem;
+  color: #343a40;
   margin-bottom: 2rem;
-
 }
 
-.experience__content{
+/* Experience Container */
+.experience__container {
   display: grid;
-grid-template-columns: 1fr 1fr;
-row-gap:2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.experience__details{
-  gap: 1rem;
+.experience__frontend,
+.experience__backend {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience__frontend:hover,
+.experience__backend:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.experience__content {
+  margin-top: 1rem;
+}
+
+.experience__content article {
   display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-.experience__details-icon{
-  margin-top: 6px;
+.experience__details-icon {
+  font-size: 1.5rem;
+  color: #007bff;
 }
 
-@media screen and (max-width: 1024px){
- .experience__container{
-  grid-template-columns: 1fr;
- }
-
- .experience__container > div{
-  width:80%;
-  padding: 2rem;
-  margin: 0rem ;
- }
- .experience__content{
-  padding: 1rem;
- }
+.experience__details h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
+.experience__details small {
+  color: #6c757d;
+}
 
-@media screen and  ( max-width: 600px){
-  .experience__container{
-    gap: 1rem;
-  }
-
-  .experience__container >div{
-    width:100%;
-    padding:2rem 1rem;
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .experience__container {
+    grid-template-columns: 1fr;
   }
 }
