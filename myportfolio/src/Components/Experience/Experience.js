@@ -29,7 +29,12 @@ const Experience =() => {
             </article> 
             <article className="experience__details">
           <BsFillPatchCheckFill className="experience__details-icon"/> 
-          <div><h4>JavaScript</h4>
+          <div><h4>python</h4>
+          < small className="text-light">intermediate</small></div>
+            </article> 
+            <article className="experience__details">
+          <BsFillPatchCheckFill className="experience__details-icon"/> 
+          <div><h4>FastApi</h4>
           < small className="text-light">intermediate</small></div>
             </article>
             <article className="experience__details">
