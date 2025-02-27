@@ -1,32 +1,28 @@
-/* General Hero Section Styling */
+/* ================================
+   General Hero Section Styling
+================================ */
 .hero {
   display: flex;
-  margin-top: 80px;
-
   align-items: center;
   justify-content: center;
-
+  margin-top: 80px;
   padding: 0 20px;
-  background-color: #f5f5f5; /* Light background color */
+  background-color: #f5f5f5; /* Light background */
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap; /* Makes it responsive */
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30 0 0px;
-
+  padding: 30px 0;
 }
 
-.f_flex {
-  display: flex;
-  align-items: center;
-}
-
-/* Left Section Styling */
+/* ================================
+   Left Section Styling
+================================ */
 .left {
   flex: 1;
   max-width: 600px;
@@ -46,7 +42,7 @@
 }
 
 .left h1 span {
-  color: #007bff; /* Highlighted color */
+  color: #007bff; /* Highlighted text */
 }
 
 .left h2 {
@@ -56,7 +52,7 @@
 }
 
 .left h2 span {
-  color: #28a745; /* Typing effect color */
+  color: #28a745; /* Typing effect */
 }
 
 .left p {
@@ -66,17 +62,21 @@
   margin-bottom: 30px;
 }
 
-/* Hero Buttons */
+/* ================================
+   Buttons & Social Media
+================================ */
 .hero_btn {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap; /* Responsive alignment */
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .col_1 {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .col_1 h4 {
@@ -99,8 +99,9 @@
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  transition: 0.3s ease;
   cursor: pointer;
+  border: none;
 }
 
 .btn_shadow:hover {
@@ -108,12 +109,33 @@
   transform: scale(1.1);
 }
 
+.btn_shadow a {
+  font-size: 1.5rem;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn_shadow img {
   width: 30px;
   height: 30px;
 }
 
-/* Right Section Styling */
+/* ================================
+   Skills Section
+================================ */
+.skill_buttons {
+  display: flex;
+  gap: 15px; /* Spaces out skill buttons */
+  justify-content: center; /* Centers skills horizontally */
+  align-items: center;
+  flex-wrap: wrap; /* Responsive */
+}
+
+/* ================================
+   Right Section (Image)
+================================ */
 .right {
   flex: 1;
   max-width: 600px;
@@ -127,16 +149,18 @@
   width: 100%;
   max-width: 300px;
   border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
-  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
 }
 
 .right_img img:hover {
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
-  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
 }
 
-/* Responsive Design */
+/* ================================
+   Responsive Design
+================================ */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;

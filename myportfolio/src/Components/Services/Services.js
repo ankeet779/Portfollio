@@ -8,48 +8,17 @@ const Services = () => {
   <h5>What I Offer</h5>
   <h2> Services</h2>
   <div className='container services__container'>
-    <article className=" service">
-< div className='service__head'>
-  <h3>Web Design</h3>
-</div>
-<ul className='service__list'>
-  <li>
-    <BsCheck className='service__list-icon'/>
-    <p>Creating visually appealing and user-friendly website layouts.</p>
-     </li>
-     <li>
-    <BsCheck className='service__list-icon'/>
-    <p>Developing responsive websites that work well on various devices and screen sizes.</p>
-     </li>
-     <li>
-    <BsCheck className='service__list-icon'/>
-    <p>Translating designs into functional websites using HTML, CSS, and JavaScript.</p>
-     </li>
-     <li>
-    <BsCheck className='service__list-icon'/>
-    <p>Creating user-friendly and visually appealing forms for data collection.</p>
-     </li>
-     <li>
-    <BsCheck className='service__list-icon'/>
-    <p>Designing websites with a single, long-scrolling page for seamless content exploration.</p>
-     </li>
-     <li>
-    <BsCheck className='service__list-icon'/>
-    <p>Using card-style layouts to present content in an organized and visually appealing manner.</p>
-     </li>
-</ul>
-    </article>
-    {/*END of Web design*/}
+ 
 
     
     <article className=" service">
 < div className='service__head'>
-  <h3>UI/UX design</h3>
+  <h3>Data Analyst</h3>
 </div>
 <ul className='service__list'>
   <li>
     <BsCheck className='service__list-icon'/>
-    <p>Conducting research to understand the target audience's needs, behaviors, and preferences.</p>
+    <p>Data visualization using Tableau, Power BI, or Matplotlib.</p>
      </li>
      <li>
     <BsCheck className='service__list-icon'/>
@@ -75,33 +44,50 @@ const Services = () => {
     </article>
     <article className=" service">
 < div className='service__head'>
-  <h3>Mobile App</h3>
+  <h3>web Design </h3>
 </div>
 <ul className='service__list'>
   <li>
     <BsCheck className='service__list-icon'/>
-    <p>Creating visually appealing and user-friendly website layouts.</p>
+    <p>Designing interactive dashboards and reports for data visualization</p>
      </li>
      <li>
     <BsCheck className='service__list-icon'/>
-    <p>Developing responsive websites that work well on various devices and screen sizes.</p>
+    <p>Developing responsive web interfaces for displaying analytical insights.
+     </p>
      </li>
      <li>
     <BsCheck className='service__list-icon'/>
-    <p>Translating designs into functional websites using HTML, CSS, and JavaScript.</p>
+    <p>Intergrating Apis and databases to fetch and display real-time data.</p>
      </li>
      <li>
     <BsCheck className='service__list-icon'/>
-    <p>Creating user-friendly and visually appealing forms for data collection.</p>
+    <p>Using React, JavaScript and CSS to create dynamic and user-friendly interfaces.</p>
      </li>
      <li>
     <BsCheck className='service__list-icon'/>
-    <p>Designing websites with a single, long-scrolling page for seamless content exploration.</p>
+    <p>Ensuring accessibility and cross-device compatibility for web applications.</p>
      </li>
      <li>
     <BsCheck className='service__list-icon'/>
     <p>Using card-style layouts to present content in an organized and visually appealing manner.</p>
      </li>
+</ul>
+    </article>
+    <article className=" service">
+< div className='service__head'>
+  <h3>Backend</h3>
+</div>
+<ul className='service__list'>
+  <li>
+    <BsCheck className='service__list-icon'/>
+    <p>Working with databases (SQL,mongo DB)</p>
+     </li>
+     <li>
+    <BsCheck className='service__list-icon'/>
+    <p>Developign APis for data retrieval and analysis.</p>
+     </li>
+    
 </ul>
     </article>
   </div>

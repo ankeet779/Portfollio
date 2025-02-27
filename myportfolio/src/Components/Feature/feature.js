@@ -25,11 +25,7 @@ const Feature = () => {
     <article className = 'about__card'>
       <FaAward className="about__icon"/>
       <h5> Experience</h5>
-      <small> 3+ Years of working</small>
-    </article><article className = 'about__card'>
-      <FiUsers className="about__icon"/>
-      <h5> Clients</h5>
-      <small> 100+ worldwide</small>
+      <small> 3+ Years of semester projects</small>
     </article>
     <article className = 'about__card'>
       <VscFolderLibrary className="about__icon"/>

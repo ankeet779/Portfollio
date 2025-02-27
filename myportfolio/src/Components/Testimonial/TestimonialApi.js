@@ -14,7 +14,7 @@ const TestimonialApi = [
      
       name: "Aayush Neupane",
      
-      desc: "machoddiye bhaiya ji",
+      desc: "had fun working ",
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ const TestimonialApi = [
     {
       id: 4,
       image: img4,
-      name:"Ankit Rimal",
+      name:"Anuj Neupane",
       desc: "Brillant",
     }
   ]
