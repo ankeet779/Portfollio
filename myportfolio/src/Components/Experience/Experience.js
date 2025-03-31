@@ -50,21 +50,34 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Backend Development Section */}
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
+        <div className="experience__frontend">
+          <h3>Data Analysis</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Beginner</small>
+                <h4>MySQL</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>FastAPI</h4>
+                <h4>PowerBI</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Pandas & Numpy</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Machine Learning</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
