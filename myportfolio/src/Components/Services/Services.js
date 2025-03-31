@@ -18,7 +18,7 @@ const Services = () => {
 <ul className='service__list'>
   <li>
     <BsCheck className='service__list-icon'/>
-    <p>Data visualization using Tableau, Power BI, or Matplotlib.</p>
+    <p>Data visualization using  Power BI, or Matplotlib.</p>
      </li>
      <li>
     <BsCheck className='service__list-icon'/>
@@ -85,7 +85,7 @@ const Services = () => {
      </li>
      <li>
     <BsCheck className='service__list-icon'/>
-    <p>Developign APis for data retrieval and analysis.</p>
+    <p>Developing APis for data retrieval and analysis.</p>
      </li>
     
 </ul>

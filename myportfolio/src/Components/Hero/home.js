@@ -4,6 +4,7 @@ import image from "../pic/IMG_7336-removebg-preview.png";
 import skill1 from "../pic/flutter.jpg";
 import skill2 from "../pic/react.png";
 import skill3 from "../pic/2560px-Qt_logo_2016.svg.png";
+import image2 from "../pic/image.png";
 import { Typewriter } from "react-simple-typewriter";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 
@@ -21,7 +22,7 @@ const Home = () => {
               a{" "}
               <span>
                 <Typewriter
-                  words={["Coder", "Frontend Developer"]}
+                  words={[ "Frontend Developer", "Data Analyst"]}
                   loop={5}
                   cursor
                   cursorStyle="|"
@@ -32,11 +33,10 @@ const Home = () => {
               </span>
             </h2>
             <p>
-              I specialize in front-end technologies such as HTML, CSS, and
-              JavaScript, and I'm well-versed in modern frameworks like React. I
-              have hands-on experience in implementing responsive and accessible
-              designs, ensuring our applications work seamlessly across
-              different devices and browsers.
+          
+              I specialize in front-end development using HTML, CSS, and JavaScript, with expertise in modern frameworks like React. Additionally, I have experience in data analysis, leveraging SQL, Python, and Power BI to extract insights and enhance decision-making. I am skilled in implementing responsive and accessible designs, ensuring seamless user experiences across various devices and browsers while integrating data-driven solutions.
+
+
             </p>
 
             <div className="hero_btn d_flex">
@@ -78,11 +78,9 @@ const Home = () => {
                   <img src={skill2} alt="" />
                 </button>
                 <button className="btn_shadow">
-                  <img src={skill1} alt="" />
+                  <img src={image2} alt="" />
                 </button>
-                <button className="btn_shadow">
-                  <img src={skill3} alt="" />
-                </button>
+               
               </div>
             </div>
           </div>

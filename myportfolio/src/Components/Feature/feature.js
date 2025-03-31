@@ -34,8 +34,9 @@ const Feature = () => {
     </article>
   </div>
   <p>
-  I've worked on a diverse range of projects, primarily focusing on frontend development using JavaScript and React. I also bring experience in handling C++, JavaScript, C, and Python. These projects have honed my skills in creating dynamic and user-friendly interfaces while also equipping me to tackle various programming challenges. My proficiency in multiple languages has allowed me to contribute effectively to cross-functional teams and develop well-rounded solutions.
-  </p>
+  I've worked on a diverse range of projects, primarily focusing on frontend development using JavaScript and React. Additionally, I have experience in data analysis, working with SQL, Python, and Power BI to extract insights and build data-driven solutions. I also have a strong foundation in C, C++, and JavaScript, which has helped me tackle various programming challenges. My proficiency in multiple technologies allows me to contribute effectively to both development and analytical projects, making me adaptable in cross-functional teams.
+
+</p>
   <a href='#contact' className='btn '> Let's Talk</a>
      </div>
     </div>
